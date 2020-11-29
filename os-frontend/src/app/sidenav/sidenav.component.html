@@ -1,0 +1,21 @@
+<div *ngIf="isDisplaySideNav">
+  <div class="demo">
+  </div>
+  <div class="sideNav" [style.width]="sideNavWidth">
+    <div class="card">
+      <div class="card-header" [style.background-color]="theme.primaryColor">
+        <span>Home</span>
+        <button class="btn" (click)='onClose()'>
+          <i class="fas fa-window-close"></i>
+        </button>
+      </div>
+      <div class="card-body p-0">
+        <ul class="list-group">
+          <li class="list-group-item border-bottom">Shop By Category</li>
+          <li class="list-group-item border-bottom">Offers</li>
+          <li class="list-group-item border-bottom">More Shops</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>

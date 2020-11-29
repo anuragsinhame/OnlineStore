@@ -1,0 +1,24 @@
+{
+  "name": "os-backend",
+  "version": "1.0.0",
+  "description": "Backend for Online Store",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anuragsinhame/OnlineStore.git"
+  },
+  "keywords": [
+    "onlineStore",
+    "node",
+    "express"
+  ],
+  "author": "sinha.anurag101@gmail.com",
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/anuragsinhame/OnlineStore/issues"
+  },
+  "homepage": "https://github.com/anuragsinhame/OnlineStore#readme"
+}
